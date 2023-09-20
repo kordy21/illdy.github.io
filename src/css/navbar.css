@@ -1,0 +1,16 @@
+/* *{
+    color: white !important;
+} */
+.navbar-header{
+    padding: 1rem 0;
+}
+.navbar-brand img{
+    width: 100%;
+}
+.nav-item a{
+    line-height: 26px;
+    font-size: 16px !important;
+}
+.navbar-collapse li:hover .nav-link{
+    color: #ffde00 !important;
+}
