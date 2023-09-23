@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/illdy/static/css/main.a2954575.css",
+    "main.js": "/illdy/static/js/main.e6c15a07.js",
+    "static/js/787.f7befb30.chunk.js": "/illdy/static/js/787.f7befb30.chunk.js",
+    "static/media/front-page-project-2.jpg": "/illdy/static/media/front-page-project-2.a6002b08be3e9c72ea35.jpg",
+    "static/media/front-page-project-1.jpg": "/illdy/static/media/front-page-project-1.6b444d29b36b8a1bca98.jpg",
+    "static/media/front-page-project-4.jpg": "/illdy/static/media/front-page-project-4.1c5e78ea325303a8713c.jpg",
+    "static/media/front-page-project-3.jpg": "/illdy/static/media/front-page-project-3.b06b6a4573bc1ce476f8.jpg",
+    "index.html": "/illdy/index.html",
+    "main.a2954575.css.map": "/illdy/static/css/main.a2954575.css.map",
+    "main.e6c15a07.js.map": "/illdy/static/js/main.e6c15a07.js.map",
+    "787.f7befb30.chunk.js.map": "/illdy/static/js/787.f7befb30.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2954575.css",
+    "static/js/main.e6c15a07.js"
+  ]
+}
