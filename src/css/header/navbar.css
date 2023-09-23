@@ -1,10 +1,6 @@
-*{
-    color: white !important;
-    font-weight: bold;
-}
 .navbar-header{
     padding: 1rem 0;
-    margin-bottom: 5rem;
+    margin-bottom: 3%;
 }
 .navbar-toggler {
     border: 0 !important;
@@ -22,3 +18,8 @@
 .navbar-collapse li:hover .nav-link{
     color: #ffde00 !important;
 }
+/* @media (max-width:1200px) {
+    .navbar-header{
+        height: 100vh;
+    }
+} */

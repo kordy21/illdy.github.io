@@ -1,5 +1,5 @@
-import logo from "../image/cropped-footer-logo-1.png"
-import "../css/navbar.css"
+import logo from "../../image/cropped-footer-logo-1.png"
+import "../../css/header/navbar.css"
 function Navbar (){
     return (
         <div className="container-md navbar-header">

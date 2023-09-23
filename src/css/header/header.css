@@ -1,8 +1,12 @@
 .header{
     background-image: url(https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/front-page/front-page-header.jpg);
     background-position: center;
-    height: calc(100vh);
     background-size: 125% 100%;
     background-attachment: fixed;
-    margin-bottom: 10rem;
+    background-position: center;
+}
+@media (max-width:767px) {
+    .header{
+        background-attachment: initial;
+    }
 }

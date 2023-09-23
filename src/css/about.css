@@ -1,0 +1,131 @@
+
+.skills{
+    margin: 7% 0;
+}
+.progress{
+    height: 8px !important;
+    border-radius: 0 !important;
+}
+
+.progress-bar-1{
+    background-color:rgb(249, 135, 101) ;
+    width: 60% ;
+    position: relative ;
+    height: 10px;
+}
+.progress-bar-1::after{
+    content: "";
+    background-color:rgb(249, 135, 101) ;
+    width: 10px ;
+    position: absolute ;
+    height: 10px;
+    border-radius: 50%;
+    top: 4.5px;
+    right: 0;
+}
+.progress-bar-1::before{
+    content: "60%";
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    background-color:rgb(249, 135, 101) ;
+    padding: 6px 17px;
+    position: absolute ;
+    border-radius: 10px;
+    bottom: 16.5px;
+    right: -24px;
+}
+
+.skill-botton-text{
+    margin-left: 8px;
+    font-size: 14px;
+}
+.skill-bottom-1 {
+    text-align: initial;
+    margin-top: 10px;
+    color: rgb(249, 135, 101) ;
+}
+
+
+.progress-bar-2{
+    background-color:rgb(241, 210, 4) ;
+    width: 82% ;
+    position: relative ;
+    height: 10px;
+}
+.progress-bar-2::after{
+    content: "";
+    background-color:rgb(241, 210, 4) ;
+    width: 10px ;
+    position: absolute ;
+    height: 10px;
+    border-radius: 50%;
+    top: 4.5px;
+    right: 0;
+}
+.progress-bar-2::before{
+    content: "82%";
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    background-color:rgb(241, 210, 4) ;
+    padding: 6px 17px;
+    position: absolute ;
+    border-radius: 10px;
+    bottom: 16.5px;
+    right: -24px;
+}
+.skill-bottom-2 {
+    text-align: initial;
+    margin-top: 10px;
+    color: rgb(241, 210, 4) ;
+}
+
+
+.progress-bar-3{
+    background-color:rgb(106, 77, 138) ;
+    width: 86% ;
+    position: relative ;
+    height: 10px;
+}
+.progress-bar-3::after{
+    content: "";
+    background-color:rgb(106, 77, 138) ;
+    width: 10px ;
+    position: absolute ;
+    height: 10px;
+    border-radius: 50%;
+    top: 4.5px;
+    right: 0;
+}
+.progress-bar-3::before{
+    content: "86%";
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    background-color:rgb(106, 77, 138) ;
+    padding: 6px 17px;
+    position: absolute ;
+    border-radius: 10px;
+    bottom: 16.5px;
+    right: -24px;
+}
+.skill-bottom-3 {
+    text-align: initial;
+    margin-top: 10px;
+    color: rgb(106, 77, 138) ;
+}
+progress-value-top::after{
+    content: "";
+    position: absolute;
+    height: 20px;
+}
+
+@media (max-width:767px) {
+    .progress-bar-2{
+        margin-top: 5%;
+    }
+    .progress-bar-3{
+        margin-top: 5%;
+    }
+}

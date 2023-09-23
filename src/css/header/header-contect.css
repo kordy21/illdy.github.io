@@ -1,0 +1,119 @@
+a{
+    text-decoration: none !important;
+    }
+.header-contect{
+    text-align: center;
+    color: white;
+
+}
+
+.header-contect h1{
+    font-size: 5.5rem;
+    font-weight: bold;
+}
+.header-contect h1 span{
+    color:#ffde00 !important;
+}
+.header-contect p{
+    margin-bottom: 5rem;
+}
+.btn-header div{
+    display: inline-block;
+}
+.btn-header-1{
+    padding: 16px 70px;
+    border-radius: 3px;
+    background-color: #0000002b;
+    border: 3px solid #fff;
+    margin: 15px;
+    transition: all 0.3s;
+}
+.btn-header-1:hover{
+    background-color: transparent;
+}
+.btn-header-2{
+    padding: 16px 70px;
+    border-radius: 3px;
+    background-color: #e8c903;
+    border: 3px solid #e8c903;
+    margin: 10px;
+    transition: all 0.3s;
+}
+.btn-header-2:hover{
+    background-color: #6a4d8a;
+    border-color: #6a4d8a;
+}
+.header-contect .row {
+    margin-top: 10%;
+}
+.btn-header-1{
+    padding: 16px 70px;
+    border-radius: 3px;
+    background-color: #0000002b;
+    border: 3px solid #fff;
+    margin: 10px;
+    transition: all 0.3s;
+}
+@media (max-width:1900px) {
+    .btn-header div{
+        margin-bottom: 16%;
+    }
+}
+@media (max-width:1500px) {
+    .btn-header div{
+        margin-bottom: 20%;
+    }
+}
+@media (max-width:1200px) {
+    .header-contect .row{
+        margin-top: 5%;
+    }
+}
+@media (max-width:992px) {
+    .btn-header div{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 0%;
+    }
+    .btn-header div:nth-child(2){
+        margin-bottom: 12% ; 
+    }
+    .header-contect p{
+        margin-bottom: 1rem;
+    }
+}
+@media (max-width:767px) {
+    .btn-header div{
+        display: inline-block;
+        margin-bottom: 0%;
+    }
+    .header-contect h1{
+        font-size: 50px;
+        margin-bottom: 5%;
+    }
+    .btn-header div:nth-child(2){
+        margin-bottom: 10% ; 
+    }
+    .header-contect p{
+        margin-bottom: 2rem;
+        font-size: small;
+        font-weight:450 !important;
+    }
+}
+@media (max-width:576px) {
+    .btn-header div{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 0%;
+    }
+    .btn-header div:nth-child(2){
+        margin-bottom: 12% ; 
+    }
+    .header-contect h1{
+        font-size: 35px;
+        margin-bottom: 5%;
+    }
+    .header-contect p{
+        margin-bottom: 1rem;
+    }
+}
