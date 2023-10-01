@@ -5,6 +5,7 @@
 .progress{
     height: 8px !important;
     border-radius: 0 !important;
+    background-color: white !important;
 }
 
 .progress-bar-1{

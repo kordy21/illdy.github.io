@@ -10,3 +10,8 @@
         background-attachment: initial;
     }
 }
+@media (min-width:1500px) {
+    .header{
+        height: 100vh;
+    }
+}

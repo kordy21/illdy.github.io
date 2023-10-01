@@ -21,7 +21,7 @@ a{
     display: inline-block;
 }
 .btn-header-1{
-    padding: 16px 70px;
+    padding: 25px 120px;
     border-radius: 3px;
     background-color: #0000002b;
     border: 3px solid #fff;
@@ -32,7 +32,7 @@ a{
     background-color: transparent;
 }
 .btn-header-2{
-    padding: 16px 70px;
+    padding: 25px 120px;
     border-radius: 3px;
     background-color: #e8c903;
     border: 3px solid #e8c903;
@@ -46,15 +46,7 @@ a{
 .header-contect .row {
     margin-top: 10%;
 }
-.btn-header-1{
-    padding: 16px 70px;
-    border-radius: 3px;
-    background-color: #0000002b;
-    border: 3px solid #fff;
-    margin: 10px;
-    transition: all 0.3s;
-}
-@media (max-width:1900px) {
+@media (min-width:1500px) {
     .btn-header div{
         margin-bottom: 16%;
     }
@@ -86,6 +78,12 @@ a{
     .btn-header div{
         display: inline-block;
         margin-bottom: 0%;
+    }
+    .btn-header-1{
+        padding: 16px 70px;
+    }
+    .btn-header-2{
+        padding: 16px 70px;
     }
     .header-contect h1{
         font-size: 50px;
