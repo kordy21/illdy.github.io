@@ -6,14 +6,16 @@ import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 function LastestNews () {
     return (
         <div className="lastest-news">
-            <div className="section-title">
-                <div className="row">
-                    <div className="col-sm-12">
-                        <h3 className="text-white">Latest News</h3>  
-                    </div>
-                    <div className="col-sm-1"></div>
-                    <div className="col-sm-10">
-                        <p className="text-white opacity-50">If you are interested in the latest articles in the industry, take a sneak peek at our blog. You have nothing to loose!</p>
+            <div className="container-fluid">
+                <div className="section-title">
+                    <div className="row">
+                        <div className="col-sm-12">
+                            <h3 className="text-white">Latest News</h3>  
+                        </div>
+                        <div className="col-sm-1"></div>
+                        <div className="col-sm-10">
+                            <p className="text-white opacity-50">If you are interested in the latest articles in the industry, take a sneak peek at our blog. You have nothing to loose!</p>
+                        </div>
                     </div>
                 </div>
             </div>
