@@ -2,7 +2,7 @@
     text-align: center;
 }
 .service div:first-child{
-    color: rgb(241, 139, 109);
+    color: var(--orangeColor);
 }
 .service-icon {
     height: 2rem;
@@ -14,9 +14,9 @@
     color:rgba(0, 0, 0, 0.429) ;
 }
 .row .col-md-4:nth-child(2) .service div{
-    color: #f1d204;
+    color: var(--yellowColor);
 }
 .row .col-md-4:nth-child(3) .service div{
-    color: rgb(106, 77, 138);
+    color: var(--purpleColor);
 }
 

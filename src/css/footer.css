@@ -1,0 +1,26 @@
+.footer{
+    padding: 2rem 0;
+    color: white;
+    background-color: #292825;
+}
+
+.title_widget{
+    margin: 1rem 0;
+}
+.text_widget ul{
+    padding-left: 0 !important;
+}
+.text_widget ul li{
+    list-style-type: none;
+    margin: 1rem 0  ;
+}
+.text_widget ul li a{
+    margin-left: 0.5rem;
+    font-weight:500;
+    font-size: 1.1rem;
+}
+.bottom-footer{
+    background-color: #242320;
+    color: white;
+    text-align: center;
+}

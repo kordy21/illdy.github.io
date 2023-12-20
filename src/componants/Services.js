@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPen,faCode,faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 function Services (){
     return (
-        <div className="container-fluid">
+        <div className="container-md" id="Services">
             <div className="section-title">
                 <div className="row">
                     <div className="col-sm-12">

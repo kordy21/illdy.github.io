@@ -6,7 +6,7 @@ function LastestNewsCards () {
         <section className="lastest-news-cards">
             <div className="container-md">
                 <div className="row justify-content-around">
-                    <div className="col-4 gx-5">
+                    <div className="col-sm-12 col-md-6 col-lg-4 gx-5">
                         <div className="card-lestest">
                             <div className="col-12">
                                 <div className="img-card1">
@@ -28,7 +28,7 @@ function LastestNewsCards () {
                             </div>
                         </div>
                     </div>
-                    <div className="col-4 gx-5">
+                    <div className="col-sm-12 col-md-6 col-lg-4 gx-5">
                         <div className="card-lestest">
                             <div className="col-12">
                                 <div className="img-card2">
@@ -50,7 +50,7 @@ function LastestNewsCards () {
                             </div>
                         </div>
                     </div>
-                    <div className="col-4 gx-5">
+                    <div className="col-sm-12 col-md-6 col-lg-4 gx-5">
                         <div className="card-lestest">
                             <div className="col-12">
                                 <div className="img-card3">

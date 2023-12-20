@@ -1,0 +1,59 @@
+
+.contact-us-box{
+    width: 100%;
+    display: inline-block;
+    text-align: left;   
+}
+
+.box-left{
+    display: table-cell;
+    
+    padding-right: 1rem;
+    color: var(--yellowColor);
+}
+.box-right{
+    display: table-cell;
+    padding-left: 1rem;
+}
+
+.contactUsSocial{
+    text-align: end;
+}
+p label{
+    margin-bottom: 0.5rem;
+}
+p input,textarea{
+    width: 100%;
+    display: block;
+    padding: 0.2rem;
+    border: none;
+    outline: 1px solid rgba(193, 191, 191, 0.421);
+}
+p input:focus-visible{
+    outline: 1px solid rgb(208, 207, 207);
+} 
+
+textarea:focus-visible{
+    border: 1px solid rgb(208, 207, 207);
+} 
+.btn-form{
+    text-align: end;
+}
+.btn-form input{
+    color: white;
+    font-weight: bold;
+    background-color: var(--yellowColor);
+    height: 44px;
+    padding: 0 60px;
+    border: transparent;
+    border-radius: 5px;
+}
+
+@media (max-width:768px) {
+    .box-left{
+        width: 150px;
+    }
+    .contactUsSocial{
+        text-align: start;
+    }
+}

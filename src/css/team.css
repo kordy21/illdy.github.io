@@ -1,0 +1,54 @@
+.team{
+    display: flex;   
+    margin-bottom: 3rem;
+}
+
+.team img{
+    border-radius: 50%;
+    margin: 1rem 0;
+    max-height: 125px;
+}
+
+.contectTeam{
+    margin-left: 1rem;
+}
+
+.orangeColor{
+    color:var(--orangeColor);
+    border: 1px solid var(--orangeColor);
+}
+.yellowColor{
+    color:var(--yellowColor);
+    border: 2px solid var(--yellowColor);
+}
+.purpleColor{
+    color:var(--purpleColor);
+    border: 1.5px solid var(--purpleColor);
+}
+.orangeBgColor{
+    background-color:var(--orangeColor);
+    color: white;
+    border: 1px solid var(--orangeColor);
+}
+.yellowBgColor{
+    background-color:var(--yellowColor);
+    color: white;
+    border: 1px solid var(--yellowColor);
+}
+.purpleBgColor{
+    background-color:var(--purpleColor);
+    color: white;
+    border: 1px solid var(--purpleColor);
+}
+
+
+
+
+@media (max-width:992px) {
+    .progress-bar-2{
+        margin-top: 5%;
+    }
+    .progress-bar-3{
+        margin-top: 5%;
+    }
+}

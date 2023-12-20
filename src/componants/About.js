@@ -4,7 +4,7 @@ import { faA,faPen,faCode } from '@fortawesome/free-solid-svg-icons';
 
 function About(){
     return(
-        <div className="container-md">
+        <div className="container-md" id="About">
             <div className="section-title">
                 <div className="row">
                     <div className="col-sm-12">

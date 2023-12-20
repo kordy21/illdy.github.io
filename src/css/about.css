@@ -9,14 +9,14 @@
 }
 
 .progress-bar-1{
-    background-color:rgb(249, 135, 101) ;
+    background-color:var(--orangeColor) ;
     width: 60% ;
     position: relative ;
     height: 10px;
 }
 .progress-bar-1::after{
     content: "";
-    background-color:rgb(249, 135, 101) ;
+    background-color:var(--orangeColor);
     width: 10px ;
     position: absolute ;
     height: 10px;
@@ -29,7 +29,7 @@
     text-align: center;
     color: white;
     font-size: 12px;
-    background-color:rgb(249, 135, 101) ;
+    background-color:var(--orangeColor) ;
     padding: 6px 17px;
     position: absolute ;
     border-radius: 10px;
@@ -44,19 +44,19 @@
 .skill-bottom-1 {
     text-align: initial;
     margin-top: 10px;
-    color: rgb(249, 135, 101) ;
+    color: var(--orangeColor) ;
 }
 
 
 .progress-bar-2{
-    background-color:rgb(241, 210, 4) ;
+    background-color:var(--yellowColor) ;
     width: 82% ;
     position: relative ;
     height: 10px;
 }
 .progress-bar-2::after{
     content: "";
-    background-color:rgb(241, 210, 4) ;
+    background-color:var(--yellowColor) ;
     width: 10px ;
     position: absolute ;
     height: 10px;
@@ -69,7 +69,7 @@
     text-align: center;
     color: white;
     font-size: 12px;
-    background-color:rgb(241, 210, 4) ;
+    background-color:var(--yellowColor) ;
     padding: 6px 17px;
     position: absolute ;
     border-radius: 10px;
@@ -79,19 +79,19 @@
 .skill-bottom-2 {
     text-align: initial;
     margin-top: 10px;
-    color: rgb(241, 210, 4) ;
+    color: var(--yellowColor) ;
 }
 
 
 .progress-bar-3{
-    background-color:rgb(106, 77, 138) ;
+    background-color:var(--purpleColor) ;
     width: 86% ;
     position: relative ;
     height: 10px;
 }
 .progress-bar-3::after{
     content: "";
-    background-color:rgb(106, 77, 138) ;
+    background-color:var(--purpleColor) ;
     width: 10px ;
     position: absolute ;
     height: 10px;
@@ -104,7 +104,7 @@
     text-align: center;
     color: white;
     font-size: 12px;
-    background-color:rgb(106, 77, 138) ;
+    background-color:var(--purpleColor) ;
     padding: 6px 17px;
     position: absolute ;
     border-radius: 10px;
@@ -114,7 +114,7 @@
 .skill-bottom-3 {
     text-align: initial;
     margin-top: 10px;
-    color: rgb(106, 77, 138) ;
+    color: var(--purpleColor) ;
 }
 progress-value-top::after{
     content: "";

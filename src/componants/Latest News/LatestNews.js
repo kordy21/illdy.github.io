@@ -6,7 +6,7 @@ import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 function LastestNews () {
     return (
         <div className="lastest-news">
-            <div className="container-fluid">
+            <div className="container-md">
                 <div className="section-title">
                     <div className="row">
                         <div className="col-sm-12">
